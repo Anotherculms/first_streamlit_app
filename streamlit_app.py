@@ -49,6 +49,5 @@ streamlit.text(" The fruit list contains: ")
 streamlit.dataframe(my_data_row)
 
 fruit_choice2 = streamlit.text_input('What fruit would you like ?','Kiwi')
-insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values('test')
 my_cur.execute( "insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values('from streamlit')")
 streamlit.header('Breakfast 000 END')
